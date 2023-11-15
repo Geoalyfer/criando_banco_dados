@@ -1,0 +1,11 @@
+# A bilbioteca a ser utilizada é a sqlite3.
+## Para obte-la pesquise no site: https://sqlitestudio.pl/ 
+## Na opção https://github.com/pawelsalawa/sqlitestudio/releases busque Portable, faça unzip e escolha o arquivo SQLiteStudio.exe
+
+#Criando script.py
+
+import sqlite3
+
+conexao = sqlite3.connect('cursos.db')
+
+# Faça a conexão do arquivo cursos.db criado pelo python e conecte com o sqlitestudio
